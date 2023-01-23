@@ -137,8 +137,16 @@ function saveScore() {
   }
 }
 
+function submitEnter(event) {
+  if (event.key === "Enter") {
+    saveScore();
+  }
+}
+
 // start game
 start.addEventListener("click", startGame);
 
 // trigger save with submit button
 submitBtn.addEventListener("click", saveScore);
+
+initialsEl.onkeyup = submitEnter;

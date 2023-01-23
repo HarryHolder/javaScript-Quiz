@@ -10,7 +10,7 @@ When the user clicks on the start button the 1st question is displayed and the t
 At this point a new screen is displayed showing their final score and requesting their initials. Both of these items of data are stored in local storage and the screen then navigates to the highscores list, where all the scores stored in the local storage are displayed from highest to lowest. There is also a button allowing the user to clear the stored scores.
 
 Here is a link to the deployed page:
-https://harryunderscore13.github.io/JavaScript-Quiz/
+https://harryunderscore13.github.io/javaScript-Quiz/
 
 Below is a gif of the page in actions:
 ![GETTING STARTED](./assets/images/gif.gif)
